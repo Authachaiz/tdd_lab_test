@@ -3,4 +3,4 @@ mangum
 pytest
 requests
 httpx
-pip install python-multipart
+python-multipart
