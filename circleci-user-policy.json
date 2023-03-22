@@ -7,7 +7,7 @@
 				"s3:PutObject"
 			],
 	    "Effect": "Allow",
-	    "Resource": "<YOUR_BUCKET_ARN_HERE>/*"
+	    "Resource": "arn:aws:s3:::authachaiza/*"
 	  },
 		{            
 			"Sid": "PermissionsToCreateAndUpdateFunction",            
@@ -18,7 +18,7 @@
 				"lambda:UpdateFunctionCode"            
 			],            
 			"Resource": [                
-				"<YOUR_LAMBDA_ARN_HERE>"            
+				"arn:aws:lambda:us-east-2:883769005761:function:fastapiauthachai"            
 			]        
 		}
 	]
